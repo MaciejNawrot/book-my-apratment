@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+}
+
+app-menu {
+  width: 100px;
+}
+
+ion-router-outlet {
+  width: 90%;
+  position: relative;
+}

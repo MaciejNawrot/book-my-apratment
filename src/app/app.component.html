@@ -1,3 +1,6 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <div class="wrapper" (click)="loginWithGooglePopUp()">
+    <app-menu *ngIf="showMenu"></app-menu>
+    <ion-router-outlet></ion-router-outlet>
+  </div>
 </ion-app>
